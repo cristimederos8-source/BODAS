@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bodas — Nómadas Profesionales</title>
+<meta name="description" content="Fotografía y filmmaking de bodas, con un estilo natural, elegante y cinematográfico. Nómadas Profesionales.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#" class="nav__brand">Nómadas <span>Profesionales</span></a>
+  <nav class="nav__links">
+    <a href="#propuesta">Propuesta</a>
+    <a href="#galeria">Galería</a>
+    <a href="#paquetes">Paquetes</a>
+    <a href="#proceso">Proceso</a>
+    <a href="#preguntas">Preguntas</a>
+    <a href="#contacto" class="nav__cta">Contacto</a>
+  </nav>
+  <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <canvas id="silk-canvas" class="hero__canvas" aria-hidden="true"></canvas>
+  <div class="hero__veil"></div>
+  <div class="hero__content">
+    <p class="hero__eyebrow">Nómadas Profesionales</p>
+    <h1 class="hero__title">Bodas</h1>
+    <p class="hero__sub">Fotografía &amp; filmmaking de casamientos</p>
+  </div>
+  <a href="#propuesta" class="hero__scroll" aria-label="Bajar a la siguiente sección">
+    <span></span>
+  </a>
+</section>
+
+<!-- PROPUESTA -->
+<section id="propuesta" class="propuesta reveal">
+  <div class="propuesta__grid">
+    <div class="propuesta__img">
+      <img src="img/manos-anillo.jpg" alt="Detalle de manos con anillo de compromiso frente a una iglesia">
+    </div>
+    <div class="propuesta__text">
+      <p class="eyebrow">Cobertura de bodas — Fotografía &amp; video profesional</p>
+      <p class="propuesta__lead">
+        Cada boda es una historia irrepetible. Nuestro objetivo es capturar las
+        emociones reales, los pequeños detalles y los grandes momentos para que
+        puedas revivirlos una y otra vez.
+      </p>
+      <p class="propuesta__body">
+        Trabajamos con un estilo natural, elegante y cinematográfico, combinando
+        fotografía profesional y video de alta calidad para crear recuerdos que
+        perduren toda la vida.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- GALERÍA -->
+<section id="galeria" class="galeria reveal">
+  <p class="eyebrow center">Galería</p>
+  <h2 class="section-title center">Historias, no solo fotos</h2>
+
+  <div class="gallery-grid">
+    <figure class="g-item g-item--tall">
+      <img src="img/pareja-bn-bosque.jpg" alt="Novios mirándose entre los árboles, retrato en blanco y negro">
+    </figure>
+    <figure class="g-item g-item--tall">
+      <video
+        class="g-video"
+        src="video/highlight.mp4"
+        poster="img/highlight-poster.jpg"
+        autoplay muted loop playsinline
+        aria-label="Video de highlights de boda">
+      </video>
+    </figure>
+    <figure class="g-item">
+      <img src="img/novia-ramo-calle.jpg" alt="Novia sosteniendo su ramo en una calle de la ciudad">
+    </figure>
+    <figure class="g-item">
+      <img src="img/manos-detalle-bn.jpg" alt="Detalle en blanco y negro del vestido y las manos entrelazadas">
+    </figure>
+    <figure class="g-item g-item--wide">
+      <img src="img/pareja-fuente.jpg" alt="Pareja sentada junto a una fuente durante la celebración">
+    </figure>
+    <figure class="g-item">
+      <img src="img/pareja-beso-plaza.jpg" alt="Pareja besándose en una plaza">
+    </figure>
+    <figure class="g-item">
+      <img src="img/familia-confeti.jpg" alt="Familia celebrando entre papel picado a la salida de la iglesia">
+    </figure>
+    <figure class="g-item g-item--wide">
+      <img src="img/familia-grupal.jpg" alt="Foto grupal de toda la familia en las escalinatas de la iglesia">
+    </figure>
+  </div>
+</section>
+
+<!-- PAQUETES -->
+<section id="paquetes" class="paquetes reveal">
+  <p class="eyebrow center">Paquetes</p>
+  <h2 class="section-title center">Encontrá el tuyo</h2>
+
+  <div class="pkg-grid">
+
+    <article class="pkg">
+      <h3 class="pkg__name">Esencial</h3>
+      <p class="pkg__price">USD 250</p>
+      <p class="pkg__desc">Ideal para bodas civiles y celebraciones íntimas.</p>
+      <ul class="pkg__list">
+        <li>Hasta 4 horas de cobertura</li>
+        <li>1 fotógrafo profesional</li>
+        <li>Cobertura de la ceremonia</li>
+        <li>Sesión de pareja</li>
+        <li>Fotografías familiares</li>
+        <li>Edición profesional de todas las fotografías</li>
+        <li>150+ fotografías editadas en alta resolución</li>
+        <li>Galería privada online</li>
+        <li>Entrega digital</li>
+      </ul>
+    </article>
+
+    <article class="pkg pkg--featured">
+      <p class="pkg__tag">Más elegido</p>
+      <h3 class="pkg__name">Clásico</h3>
+      <p class="pkg__price">USD 430</p>
+      <p class="pkg__desc">La mejor relación entre precio y experiencia.</p>
+      <ul class="pkg__list">
+        <li>Hasta 8 horas de cobertura</li>
+        <li>1 fotógrafo + 1 videógrafo profesional</li>
+        <li>Preparativos de uno de los novios</li>
+        <li>Ceremonia completa</li>
+        <li>Sesión artística de pareja</li>
+        <li>Recepción, primer baile, brindis y momentos destacados</li>
+        <li>350+ fotografías editadas</li>
+        <li>Video cinematográfico de 3 a 5 minutos</li>
+        <li>Galería online privada</li>
+        <li>Entrega digital en alta calidad</li>
+      </ul>
+    </article>
+
+    <article class="pkg">
+      <h3 class="pkg__name">Premium</h3>
+      <p class="pkg__price">USD 500</p>
+      <p class="pkg__desc">Más cobertura. Más emociones. Más recuerdos.</p>
+      <ul class="pkg__list">
+        <li>Hasta 10 horas de cobertura</li>
+        <li>1 fotógrafo + 1 videógrafo profesional</li>
+        <li>Preparativos de ambos novios</li>
+        <li>Ceremonia completa, recepción y fiesta</li>
+        <li>Sesión artística de pareja</li>
+        <li>Fotografías espontáneas de invitados</li>
+        <li>550+ fotografías editadas</li>
+        <li>Video cinematográfico de 5 a 8 minutos</li>
+        <li>Tomas con drone (según clima y autorización)</li>
+        <li>Reel vertical para Instagram y redes sociales</li>
+        <li>Galería privada online</li>
+        <li>Entrega digital en presentación personalizada</li>
+      </ul>
+    </article>
+
+    <article class="pkg">
+      <p class="pkg__tag pkg__tag--outline">La experiencia definitiva</p>
+      <h3 class="pkg__name">Signature</h3>
+      <p class="pkg__price">USD 700</p>
+      <p class="pkg__desc">Cobertura integral de principio a fin, sin perder ningún momento.</p>
+      <ul class="pkg__list">
+        <li>2 fotógrafos profesionales</li>
+        <li>1 videógrafo principal + 1 operador de apoyo</li>
+        <li>Preparativos de ambos novios en simultáneo</li>
+        <li>Ceremonia completa, decoración y detalles</li>
+        <li>Sesión artística, invitados, recepción y fiesta hasta el cierre</li>
+        <li>700+ fotografías editadas profesionalmente</li>
+        <li>Video cinematográfico premium de 8 a 12 minutos</li>
+        <li>Tomas aéreas con drone (según condiciones)</li>
+        <li>Reel vertical para redes sociales</li>
+        <li>Álbum fotográfico físico Premium</li>
+        <li>Pendrive personalizado con todo el material</li>
+        <li>Galería privada online para compartir</li>
+        <li>Entrega prioritaria</li>
+      </ul>
+    </article>
+
+  </div>
+
+  <div class="extras">
+    <p class="eyebrow center">Servicios adicionales</p>
+    <p class="extras__lead">Personalizá tu experiencia con servicios extra disponibles.</p>
+    <ul class="extras__list">
+      <li>Sesión preboda</li>
+      <li>Sesión postboda</li>
+      <li>Álbumes fotográficos adicionales</li>
+      <li>Video completo de ceremonia y discursos</li>
+      <li>Cobertura adicional con drone</li>
+      <li>Horas extra de cobertura</li>
+      <li>Cobertura de ceremonia civil en fecha diferente</li>
+    </ul>
+  </div>
+</section>
+
+<!-- PROCESO -->
+<section id="proceso" class="proceso reveal">
+  <p class="eyebrow center">¿Cómo trabajamos?</p>
+  <div class="proceso-grid">
+    <div class="paso">
+      <span class="paso__n">01</span>
+      <h3>Reserva</h3>
+      <p>Coordinamos fecha, locación y detalles con una seña para asegurar el día.</p>
+    </div>
+    <div class="paso">
+      <span class="paso__n">02</span>
+      <h3>Planificación</h3>
+      <p>Charlamos el itinerario y los momentos que más te importa capturar.</p>
+    </div>
+    <div class="paso">
+      <span class="paso__n">03</span>
+      <h3>Cobertura</h3>
+      <p>El día de la boda, documentamos todo con discreción y naturalidad.</p>
+    </div>
+    <div class="paso">
+      <span class="paso__n">04</span>
+      <h3>Entrega</h3>
+      <p>Recibís tu galería editada y material listo para guardar toda la vida.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="preguntas" class="faq reveal">
+  <p class="eyebrow center">Preguntas frecuentes</p>
+
+  <div class="accordion">
+    <div class="acc-item">
+      <button class="acc-trigger">¿Cuándo recibo el material?<span class="acc-icon"></span></button>
+      <div class="acc-panel"><p>Entre 4 y 6 semanas después de la boda, según el paquete.</p></div>
+    </div>
+    <div class="acc-item">
+      <button class="acc-trigger">¿Cómo se reserva?<span class="acc-icon"></span></button>
+      <div class="acc-panel"><p>Con una seña del 30% para bloquear la fecha en agenda.</p></div>
+    </div>
+    <div class="acc-item">
+      <button class="acc-trigger">¿Se puede personalizar un paquete?<span class="acc-icon"></span></button>
+      <div class="acc-panel"><p>Sí, todos los paquetes se pueden ajustar a lo que necesites.</p></div>
+    </div>
+    <div class="acc-item">
+      <button class="acc-trigger">¿Trabajan fuera de Montevideo?<span class="acc-icon"></span></button>
+      <div class="acc-panel"><p>Sí, viajamos dentro y fuera de Uruguay. Coordinamos traslado y estadía aparte.</p></div>
+    </div>
+    <div class="acc-item">
+      <button class="acc-trigger">¿Realizan álbumes impresos?<span class="acc-icon"></span></button>
+      <div class="acc-panel"><p>Sí, en los paquetes Signature y Legacy, y también como opción adicional.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CIERRE / CTA -->
+<section class="cta reveal">
+  <p class="cta__lead">
+    Cada sonrisa, cada abrazo y cada emoción son irrepetibles. Nuestro compromiso
+    es transformar esos instantes en recuerdos auténticos que podrás revivir
+    durante toda la vida.
+  </p>
+  <h2 class="cta__title">¿Listos para comenzar<br>esta historia juntos?</h2>
+  <p class="cta__sub">Solicitá disponibilidad para tu fecha y recibí una propuesta personalizada.</p>
+  <a href="https://wa.me/59892807461?text=Hola!%20Quiero%20consultar%20disponibilidad%20para%20mi%20boda" target="_blank" rel="noopener" class="cta__btn">Solicitar disponibilidad</a>
+</section>
+
+<!-- CONTACTO / FOOTER -->
+<footer id="contacto" class="footer">
+  <p class="footer__brand">Nómadas Profesionales</p>
+  <p class="footer__msg">Será un honor contar la historia de uno de los días más importantes de tu vida.</p>
+  <div class="footer__links">
+    <a href="https://instagram.com/nomadasprofesionaless" target="_blank" rel="noopener">Instagram</a>
+    <a href="https://wa.me/59892807461" target="_blank" rel="noopener">WhatsApp</a>
+    <a href="mailto:fotografiaprocristi@gmail.com">Correo</a>
+  </div>
+  <p class="footer__copy">© 2026 Nómadas Profesionales</p>
+</footer>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
